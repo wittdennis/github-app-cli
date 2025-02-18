@@ -1,0 +1,16 @@
+name: publish-image
+
+on:
+  release:
+    types: published
+
+jobs:
+  publish:
+    uses: wittdennis/pipelines/.github/workflows/container-image-publish.yaml@1.10.1
+    with:
+      image-name: github-app
+      build-args: |
+        VERSION=${{ github.ref_name }}
+        GIT_COMMIT=${{ github.sha }}
+    secrets:
+      registry-password: ${{ secrets.DOCKER_REGISTRY_TOKEN }}
