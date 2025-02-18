@@ -4,7 +4,35 @@ on:
   workflow_dispatch:
 
 jobs:
+  get-version:
+    runs-on: ubuntu-24.04
+    outputs:
+      version: ${{ steps.release.outputs.version }}
+    steps:
+      - uses: actions/checkout@v4.2.2
+        with:
+          fetch-depth: 0
+
+      - name: bump version
+        id: release
+        uses: oknozor/cocogitto-action@v3.10
+        with:
+          check-latest-tag-only: true
+          dry-run: true
+
   release:
-    uses: wittdennis/pipelines/.github/workflows/cog-release.yaml@1.8.2
+    uses: wittdennis/pipelines/.github/workflows/cog-release.yaml@1.10.1
+    with:
+      check-latest-tag-only: true
+      release-files: |
+        dist/github-app_${{ needs.get-version.outputs.version }}_checksums.txt
+        dist/github-app_${{ needs.get-version.outputs.version }}_darwin_amd64.tar.gz
+        dist/github-app_${{ needs.get-version.outputs.version }}_darwin_arm64.tar.gz
+        dist/github-app_${{ needs.get-version.outputs.version }}_linux_386.tar.gz
+        dist/github-app_${{ needs.get-version.outputs.version }}_linux_amd64.tar.gz
+        dist/github-app_${{ needs.get-version.outputs.version }}_linux_arm64.tar.gz
+        dist/github-app_${{ needs.get-version.outputs.version }}_windows_386.tar.gz
+        dist/github-app_${{ needs.get-version.outputs.version }}_windows_amd64.tar.gz
     secrets:
       release-token: ${{ secrets.RELEASE_TOKEN }}
+    needs: get-version

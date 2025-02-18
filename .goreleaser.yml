@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=https://goreleaser.com/static/schema.json
+project_name: github-app
+builds:
+  - id: github-app
+    dir: ./src/
