@@ -5,6 +5,8 @@ on: [pull_request]
 jobs:
   check-commit:
     uses: wittdennis/pipelines/.github/workflows/cog-validate.yaml@1.10.1
+    with:
+      check-latest-tag-only: true
 
   go-lint:
     uses: wittdennis/pipelines/.github/workflows/go-lint.yaml@1.10.1
