@@ -1,9 +1,24 @@
-# gen-github-app-installation-token
+# github-app
 
-Simple tool to generate a Github App [installation access token](https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/generating-an-installation-access-token-for-a-github-app).
+github-app is a command line interface tool to interact with github apps.
 
 ## Usage
 
+Create a config file `$HOME/.github-app/config.yaml` with the following content:
+
+```yaml
+appId: <id of the github app>
+privateKey: <private key of the app>
+```
+
+After that you can create a access token by invoking:
+
 ```sh
-docker run -e GITHUB_APP_CLIENT_ID=<YOUR-GITHUB-APP-CLIENT-ID> -e GITHUB_APP_INSTALLATION_ID=<YOUR-GITHUB-APP-INSTALLATION-ID> -e GITHUB_APP_PRIVATE_KEY=<YOUR-GITHUB-APP-PRIVATE-KEY> denniswitt/gen-github-app-installation-token:latest
+githup-app generate-token
+```
+
+You can also generate an installation token by invoking:
+
+```sh
+github-app generate-token installation INSTALLATION_ID
 ```
