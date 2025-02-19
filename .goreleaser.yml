@@ -3,3 +3,11 @@ project_name: github-app
 builds:
   - id: github-app
     dir: ./src/
+    env:
+      - CGO_ENABLED=0
+    ldflags:
+      - -s
+      - -w
+      - -X github-app/cmd/version.appVersion={{ .Tag }}
+      - -X github-app/cmd/version.gitCommit={{ .FullCommit }}
+      - -X github-app/cmd/version.buildDate={{ .CommitDate }}
