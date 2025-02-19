@@ -10,7 +10,7 @@ WORKDIR /app
 
 RUN go build -ldflags "-s -w -X github-app/cmd/version.appVersion=$VERSION -X github-app/cmd/version.gitCommit=${GIT_COMMIT} -X github-app/cmd/version.buildDate=$(date +"%Y-%m-%dT%H:%M:%SZ")" -trimpath -o 'bin/' ./...
 
-FROM alpine:3.21.2
+FROM alpine:3.21.3
 
 COPY --from=builder /app/bin/github-app /usr/local/bin/github-app
 
