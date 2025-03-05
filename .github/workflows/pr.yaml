@@ -13,8 +13,15 @@ jobs:
     with:
       working-directory: src
 
+  hadolint:
+    uses: wittdennis/pipelines/.github/workflows/hadolint.yaml@1.11.0
+
   build-image:
     uses: wittdennis/pipelines/.github/workflows/container-image-build.yaml@1.10.2
+    needs:
+      - check-commit
+      - go-lint
+      - hadolint
     with:
       image-name: github-app
       create-artifacts: false
@@ -24,6 +31,10 @@ jobs:
 
   go-build:
     uses: wittdennis/pipelines/.github/workflows/go-build.yaml@1.10.2
+    needs:
+      - check-commit
+      - go-lint
+      - hadolint
     with:
       go-version: "1.24.0"
       ldflags: -s -w -X github-app/cmd/version.appVersion=${{ github.ref_name }} -X github-app/cmd/version.gitCommit=${{ github.sha }} -X github-app/cmd/version.buildDate=$(date +"%Y-%m-%dT%H:%M:%SZ")
