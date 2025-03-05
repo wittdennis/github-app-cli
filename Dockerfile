@@ -14,6 +14,7 @@ FROM alpine:3.21.3
 
 COPY --from=builder /app/bin/github-app /usr/local/bin/github-app
 
+# hadolint ignore=DL3018
 RUN set -eux; \
     apk add --no-cache "dumb-init";
 
