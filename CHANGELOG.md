@@ -2,6 +2,31 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.1.1](https://github.com/wittdennis/github-app-cli/compare/b2e3fcc52a0981134ab263734ee993c2edcc0224..0.1.1) - 2025-03-31
+#### Bug Fixes
+- **(deps)** update module github.com/jferrl/go-githubauth to v1.2.0 - ([c8d0b5c](https://github.com/wittdennis/github-app-cli/commit/c8d0b5c7f0a4f55bdca3b2f4db58bc90e112a6e8)) - wittdennis-renovate[bot]
+- update dependencies - ([a14531c](https://github.com/wittdennis/github-app-cli/commit/a14531cb1b80da1ef4a4d3a35aaf02e30e8d452e)) - Dennis Witt
+#### Build system
+- set ldflags for goreleaser - ([b2e3fcc](https://github.com/wittdennis/github-app-cli/commit/b2e3fcc52a0981134ab263734ee993c2edcc0224)) - Dennis Witt
+#### Continuous Integration
+- **(deps)** update wittdennis/pipelines action to v1.11.7 - ([e920df8](https://github.com/wittdennis/github-app-cli/commit/e920df8d986545eff6f05b6d15a9dab86fc9c6ab)) - wittdennis-renovate[bot]
+- **(deps)** update oknozor/cocogitto-action action to v3.11 - ([1492ded](https://github.com/wittdennis/github-app-cli/commit/1492ded76660a5964901239b704b3b6d67c14043)) - wittdennis-renovate[bot]
+- **(deps)** update wittdennis/pipelines action to v1.11.6 - ([3fcd4ac](https://github.com/wittdennis/github-app-cli/commit/3fcd4ac44d829ad2439f3d4ac3aff17e3c897c1a)) - wittdennis-renovate[bot]
+- **(deps)** update wittdennis/pipelines action to v1.11.5 - ([66147af](https://github.com/wittdennis/github-app-cli/commit/66147aff2441fefd2136ba91c5d514ebb199b9fa)) - wittdennis-renovate[bot]
+- **(deps)** update wittdennis/pipelines action to v1.11.4 - ([f9b1f14](https://github.com/wittdennis/github-app-cli/commit/f9b1f14d1c3ea449de2d6284012d87e0cb9545bd)) - wittdennis-renovate[bot]
+- **(deps)** update wittdennis/pipelines action to v1.11.3 - ([ab0f986](https://github.com/wittdennis/github-app-cli/commit/ab0f986b29197b2bc94b271ca7f4825b72c384d2)) - wittdennis-renovate[bot]
+- **(deps)** update wittdennis/pipelines action to v1.11.2 - ([d39d4c6](https://github.com/wittdennis/github-app-cli/commit/d39d4c623506895d53cdd4a6227539eb67f8cbb4)) - wittdennis-renovate[bot]
+- **(deps)** update wittdennis/pipelines action to v1.11.1 - ([ccc255e](https://github.com/wittdennis/github-app-cli/commit/ccc255e3f962ab01adf39515157f37de5ff5a9c8)) - wittdennis-renovate[bot]
+- **(deps)** update wittdennis/pipelines action to v1.11.0 - ([c922a64](https://github.com/wittdennis/github-app-cli/commit/c922a64b4229ba2048a0b4e72e7311af57d03a91)) - wittdennis-renovate[bot]
+- **(deps)** update wittdennis/pipelines action to v1.10.2 - ([87f2aea](https://github.com/wittdennis/github-app-cli/commit/87f2aea5280347f3ffa123b32c4f7f833004d715)) - wittdennis-renovate[bot]
+- add hadolint job - ([d44eb6a](https://github.com/wittdennis/github-app-cli/commit/d44eb6add63f6a9b3afaef301dc015821f6f876e)) - Dennis Witt
+#### Miscellaneous Chores
+- **(deps)** update golang docker tag to v1.24.1 - ([98d2b44](https://github.com/wittdennis/github-app-cli/commit/98d2b44c19aa119f678d1df57e52047add4208f5)) - wittdennis-renovate[bot]
+- **(deps)** update alpine docker tag to v3.21.3 - ([e55df8a](https://github.com/wittdennis/github-app-cli/commit/e55df8ae1dc6dda49d3befe4211a59d3e269b17e)) - wittdennis-renovate[bot]
+- ignore version pin for apk install - ([3441677](https://github.com/wittdennis/github-app-cli/commit/34416773e9e2cb67a34da2c3a35877981c513587)) - Dennis Witt
+
+- - -
+
 ## [0.1.0](https://github.com/wittdennis/github-app-cli/compare/ddc5e611fc55a2c4f814bd5840976a58f3d24eea..0.1.0) - 2025-02-19
 #### Continuous Integration
 - check commit only on the latest tag - ([ce6213f](https://github.com/wittdennis/github-app-cli/commit/ce6213f5ecdea8938def2d4dfb981b55ee2961d2)) - Dennis Witt
