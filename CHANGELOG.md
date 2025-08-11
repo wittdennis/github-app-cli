@@ -2,6 +2,19 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.1.3](https://github.com/wittdennis/github-app-cli/compare/efa54fd0c7e9ca9b2f84008800bab09290789f36..0.1.3) - 2025-08-11
+#### Bug Fixes
+- **(deps)** update module github.com/jferrl/go-githubauth to v1.2.1 - ([957be65](https://github.com/wittdennis/github-app-cli/commit/957be65469d80c020678fdad92b7d02dcf72cb96)) - wittdennis-renovate[bot]
+#### Miscellaneous Chores
+- **(deps)** update golang docker tag to v1.24.6 - ([6481c06](https://github.com/wittdennis/github-app-cli/commit/6481c06fa1f6f75941885b33b8436ec4f64a4ca0)) - wittdennis-renovate[bot]
+- **(deps)** update pre-commit hook pre-commit/pre-commit-hooks to v6 - ([40d830f](https://github.com/wittdennis/github-app-cli/commit/40d830fc44ea66f4ea792039f21466750ef7693e)) - wittdennis-renovate[bot]
+- **(deps)** update wittdennis/pipelines action to v1.11.31 - ([07f56d4](https://github.com/wittdennis/github-app-cli/commit/07f56d480104eccab6d8d0db93c17c064b9d120c)) - wittdennis-renovate[bot]
+- **(deps)** update wittdennis/pipelines action to v1.11.30 - ([02f9e99](https://github.com/wittdennis/github-app-cli/commit/02f9e997ada61c3d982c0ed18c7e4bfebacf86df)) - wittdennis-renovate[bot]
+- **(deps)** update wittdennis/pipelines action to v1.11.29 - ([f46a7f9](https://github.com/wittdennis/github-app-cli/commit/f46a7f97f5a554eb0522bce37b43673cb51ca085)) - wittdennis-renovate[bot]
+- **(deps)** update wittdennis/pipelines action to v1.11.28 - ([efa54fd](https://github.com/wittdennis/github-app-cli/commit/efa54fd0c7e9ca9b2f84008800bab09290789f36)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [0.1.2](https://github.com/wittdennis/github-app-cli/compare/f5afbb79a3f0712076120a70cbed79d67e7e82a5..0.1.2) - 2025-07-18
 #### Bug Fixes
 - **(deps)** update alpine docker tag to v3.22.1 - ([a21e58b](https://github.com/wittdennis/github-app-cli/commit/a21e58b5316ab61762ee1a9b024232e0a6dc9499)) - wittdennis-renovate[bot]
