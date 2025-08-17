@@ -22,6 +22,8 @@ github.com/google/go-github/v69 v69.0.0 h1:YnFvZ3pEIZF8KHmI8xyQQe3mYACdkhnaTV2hr
 github.com/google/go-github/v69 v69.0.0/go.mod h1:xne4jymxLR6Uj9b7J7PyTpkMYstEMMwGZa0Aehh1azM=
 github.com/google/go-github/v69 v69.2.0 h1:wR+Wi/fN2zdUx9YxSmYE0ktiX9IAR/BeePzeaUUbEHE=
 github.com/google/go-github/v69 v69.2.0/go.mod h1:xne4jymxLR6Uj9b7J7PyTpkMYstEMMwGZa0Aehh1azM=
+github.com/google/go-github/v73 v73.0.0 h1:aR+Utnh+Y4mMkS+2qLQwcQ/cF9mOTpdwnzlaw//rG24=
+github.com/google/go-github/v73 v73.0.0/go.mod h1:fa6w8+/V+edSU0muqdhCVY7Beh1M8F1IlQPZIANKIYw=
 github.com/google/go-querystring v1.1.0 h1:AnCroh3fv4ZBgVIf1Iwtovgjaw/GiKJo8M8yD/fhyJ8=
 github.com/google/go-querystring v1.1.0/go.mod h1:Kcdr2DB4koayq7X8pmAG4sNG59So17icRSOU623lUBU=
 github.com/gorilla/mux v1.8.1 h1:TuBL49tXwgrFYWhqrNgrUNEY92u81SPhu7sTdzQEiWY=
@@ -36,6 +38,9 @@ github.com/jferrl/go-githubauth v1.2.0 h1:K138gEpO2e/yBf6OI5Vb7+0xgZZa7N7/su/iAA
 github.com/jferrl/go-githubauth v1.2.0/go.mod h1:mglSJcfvt4HSvuzQKYx4vkvi1PtlMj88m2gz660QuC0=
 github.com/jferrl/go-githubauth v1.2.1 h1:BYjtDxHHpmsw/ckU2d3hwkS3TapvNzwxNFXZ4QrILXg=
 github.com/jferrl/go-githubauth v1.2.1/go.mod h1:5JN5UXXvYYsH1+nPRKmjHohZWUVTD9ejp7kE+Jh1DPI=
+github.com/jferrl/go-githubauth v1.3.0 h1:eW5An6RhhuX/IkqfOYEzBh66RwFrrkwRMzaGbEssRrY=
+github.com/jferrl/go-githubauth v1.3.0/go.mod h1:B+IZ+R0heTfIGxhm7wC7b52B3ADh/AfD0bKY5vktBV4=
+github.com/jferrl/go-githubauth/v2 v2.0.0/go.mod h1:CWegJ0VNNWoqKsTxXCMFUHkxaL3/2+Wkl2am0O0zoyg=
 github.com/magiconair/properties v1.8.7 h1:IeQXZAiQcpL9mgcAe1Nu6cX9LLw6ExEHKjN0VQdvPDY=
 github.com/magiconair/properties v1.8.7/go.mod h1:Dhd985XPs7jluiymwWYZ0G4Z61jb3vdS329zhj2hYo0=
 github.com/magiconair/properties v1.8.9 h1:nWcCbLq1N2v/cpNsy5WvQ37Fb+YElfq20WJ/a8RkpQM=
