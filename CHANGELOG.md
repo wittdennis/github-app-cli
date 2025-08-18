@@ -2,6 +2,17 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.1.4](https://github.com/wittdennis/github-app-cli/compare/96e0c379733733165aec3c6b77aad992bb70384f..0.1.4) - 2025-08-18
+#### Bug Fixes
+- **(deps)** update module github.com/jferrl/go-githubauth to v1.3.0 - ([43abd96](https://github.com/wittdennis/github-app-cli/commit/43abd9650ae2748112865fa216e1947b8569a6f0)) - wittdennis-renovate[bot]
+#### Miscellaneous Chores
+- **(deps)** update golang docker tag to v1.25.0 - ([e81d017](https://github.com/wittdennis/github-app-cli/commit/e81d017796301115522de96832bc7f9dfdfcfd78)) - wittdennis-renovate[bot]
+- **(deps)** update wittdennis/pipelines action to v1.11.33 - ([527fc9b](https://github.com/wittdennis/github-app-cli/commit/527fc9b59e2f47ce882cda27b753b687791a724a)) - wittdennis-renovate[bot]
+- **(deps)** update actions/checkout action to v5 - ([96e0c37](https://github.com/wittdennis/github-app-cli/commit/96e0c379733733165aec3c6b77aad992bb70384f)) - wittdennis-renovate[bot]
+- go 1.25 support - ([5d20b21](https://github.com/wittdennis/github-app-cli/commit/5d20b21ca13eef02f731037265083722cba74b47)) - Dennis Witt
+
+- - -
+
 ## [0.1.3](https://github.com/wittdennis/github-app-cli/compare/efa54fd0c7e9ca9b2f84008800bab09290789f36..0.1.3) - 2025-08-11
 #### Bug Fixes
 - **(deps)** update module github.com/jferrl/go-githubauth to v1.2.1 - ([957be65](https://github.com/wittdennis/github-app-cli/commit/957be65469d80c020678fdad92b7d02dcf72cb96)) - wittdennis-renovate[bot]
