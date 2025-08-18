@@ -4,20 +4,20 @@ on: [pull_request]
 
 jobs:
   check-commit:
-    uses: wittdennis/pipelines/.github/workflows/cog-validate.yaml@1.11.33
+    uses: wittdennis/pipelines/.github/workflows/cog-validate.yaml@1.11.34
     with:
       check-latest-tag-only: true
 
   go-lint:
-    uses: wittdennis/pipelines/.github/workflows/go-lint.yaml@1.11.33
+    uses: wittdennis/pipelines/.github/workflows/go-lint.yaml@1.11.34
     with:
       working-directory: src
 
   hadolint:
-    uses: wittdennis/pipelines/.github/workflows/hadolint.yaml@1.11.33
+    uses: wittdennis/pipelines/.github/workflows/hadolint.yaml@1.11.34
 
   build-image:
-    uses: wittdennis/pipelines/.github/workflows/container-image-build.yaml@1.11.33
+    uses: wittdennis/pipelines/.github/workflows/container-image-build.yaml@1.11.34
     needs:
       - check-commit
       - go-lint
@@ -30,13 +30,13 @@ jobs:
         GIT_COMMIT=${{ github.sha }}
 
   go-build:
-    uses: wittdennis/pipelines/.github/workflows/go-build.yaml@1.11.33
+    uses: wittdennis/pipelines/.github/workflows/go-build.yaml@1.11.34
     needs:
       - check-commit
       - go-lint
       - hadolint
     with:
-      go-version: "1.24.0"
+      go-version: "1.25.0"
       ldflags: -s -w -X github-app/cmd/version.appVersion=${{ github.ref_name }} -X github-app/cmd/version.gitCommit=${{ github.sha }} -X github-app/cmd/version.buildDate=$(date +"%Y-%m-%dT%H:%M:%SZ")
       cgo-enabled: false
       working-directory: src
