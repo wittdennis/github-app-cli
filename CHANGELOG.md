@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.1.6](https://github.com/wittdennis/github-app-cli/compare/399edfd84c6c2914f6818e61dd141a1da8d897e7..0.1.6) - 2025-09-08
+#### Bug Fixes
+- **(deps)** update module github.com/spf13/viper to v1.21.0 - ([399edfd](https://github.com/wittdennis/github-app-cli/commit/399edfd84c6c2914f6818e61dd141a1da8d897e7)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [0.1.5](https://github.com/wittdennis/github-app-cli/compare/2cfa4fe94fb9b221105513a84733913876781b77..0.1.5) - 2025-09-08
 #### Bug Fixes
 - **(deps)** update module github.com/jferrl/go-githubauth to v1.4.0 - ([6adae05](https://github.com/wittdennis/github-app-cli/commit/6adae05137068ba3f950e28648cbbe76383036af)) - wittdennis-renovate[bot]
