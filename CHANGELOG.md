@@ -2,6 +2,20 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.1.5](https://github.com/wittdennis/github-app-cli/compare/2cfa4fe94fb9b221105513a84733913876781b77..0.1.5) - 2025-09-08
+#### Bug Fixes
+- **(deps)** update module github.com/jferrl/go-githubauth to v1.4.0 - ([6adae05](https://github.com/wittdennis/github-app-cli/commit/6adae05137068ba3f950e28648cbbe76383036af)) - wittdennis-renovate[bot]
+- **(deps)** update module github.com/spf13/cobra to v1.10.1 - ([a69f4f1](https://github.com/wittdennis/github-app-cli/commit/a69f4f1b0ec4a56fa556e61e2bc2388989eab881)) - wittdennis-renovate[bot]
+#### Miscellaneous Chores
+- **(deps)** update wittdennis/pipelines action to v1.11.38 - ([244f492](https://github.com/wittdennis/github-app-cli/commit/244f492d827fedc12dcaff948ccb5cb10e8671e4)) - wittdennis-renovate[bot]
+- **(deps)** update wittdennis/pipelines action to v1.11.37 - ([0e2517f](https://github.com/wittdennis/github-app-cli/commit/0e2517ff134c630c15d4206f191b6dfcdd29269b)) - wittdennis-renovate[bot]
+- **(deps)** update golang docker tag to v1.25.1 - ([784cbe2](https://github.com/wittdennis/github-app-cli/commit/784cbe2c90f7756a4e6296c5a83f93c498e34b1d)) - wittdennis-renovate[bot]
+- **(deps)** update wittdennis/pipelines action to v1.11.36 - ([1a4b3a0](https://github.com/wittdennis/github-app-cli/commit/1a4b3a04d471b55e82807333a100d982a4e87a52)) - wittdennis-renovate[bot]
+- **(deps)** update wittdennis/pipelines action to v1.11.35 - ([1c1bd4f](https://github.com/wittdennis/github-app-cli/commit/1c1bd4ff09ee671e9b7a780c213163807d6ef3df)) - wittdennis-renovate[bot]
+- **(deps)** update wittdennis/pipelines action to v1.11.34 - ([2cfa4fe](https://github.com/wittdennis/github-app-cli/commit/2cfa4fe94fb9b221105513a84733913876781b77)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [0.1.4](https://github.com/wittdennis/github-app-cli/compare/96e0c379733733165aec3c6b77aad992bb70384f..0.1.4) - 2025-08-18
 #### Bug Fixes
 - **(deps)** update module github.com/jferrl/go-githubauth to v1.3.0 - ([43abd96](https://github.com/wittdennis/github-app-cli/commit/43abd9650ae2748112865fa216e1947b8569a6f0)) - wittdennis-renovate[bot]
