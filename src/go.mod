@@ -3,7 +3,7 @@ module github-app
 go 1.25
 
 require (
-	github.com/jferrl/go-githubauth v1.3.0
+	github.com/jferrl/go-githubauth v1.4.0
 	github.com/spf13/cobra v1.10.1
 	github.com/spf13/viper v1.20.1
 )
