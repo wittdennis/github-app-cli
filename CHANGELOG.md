@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.1.7](https://github.com/wittdennis/github-app-cli/compare/aed56a275aac872c37b1343f346c7b3484ce0577..0.1.7) - 2025-09-20
+#### Bug Fixes
+- **(deps)** update module github.com/jferrl/go-githubauth to v1.4.2 - ([aed56a2](https://github.com/wittdennis/github-app-cli/commit/aed56a275aac872c37b1343f346c7b3484ce0577)) - wittdennis-renovate[bot]
+#### Miscellaneous Chores
+- **(deps)** update wittdennis/pipelines action to v1.11.39 - ([f804b16](https://github.com/wittdennis/github-app-cli/commit/f804b16c90a451d826fd688647a3fd61e69959ac)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [0.1.6](https://github.com/wittdennis/github-app-cli/compare/399edfd84c6c2914f6818e61dd141a1da8d897e7..0.1.6) - 2025-09-08
 #### Bug Fixes
 - **(deps)** update module github.com/spf13/viper to v1.21.0 - ([399edfd](https://github.com/wittdennis/github-app-cli/commit/399edfd84c6c2914f6818e61dd141a1da8d897e7)) - wittdennis-renovate[bot]
