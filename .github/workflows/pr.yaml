@@ -4,20 +4,20 @@ on: [pull_request]
 
 jobs:
   check-commit:
-    uses: wittdennis/pipelines/.github/workflows/cog-validate.yaml@1.11.40
+    uses: wittdennis/pipelines/.github/workflows/cog-validate.yaml@1.11.41
     with:
       check-latest-tag-only: true
 
   go-lint:
-    uses: wittdennis/pipelines/.github/workflows/go-lint.yaml@1.11.40
+    uses: wittdennis/pipelines/.github/workflows/go-lint.yaml@1.11.41
     with:
       working-directory: src
 
   hadolint:
-    uses: wittdennis/pipelines/.github/workflows/hadolint.yaml@1.11.40
+    uses: wittdennis/pipelines/.github/workflows/hadolint.yaml@1.11.41
 
   build-image:
-    uses: wittdennis/pipelines/.github/workflows/container-image-build.yaml@1.11.40
+    uses: wittdennis/pipelines/.github/workflows/container-image-build.yaml@1.11.41
     needs:
       - check-commit
       - go-lint
@@ -30,7 +30,7 @@ jobs:
         GIT_COMMIT=${{ github.sha }}
 
   go-build:
-    uses: wittdennis/pipelines/.github/workflows/go-build.yaml@1.11.40
+    uses: wittdennis/pipelines/.github/workflows/go-build.yaml@1.11.41
     needs:
       - check-commit
       - go-lint
