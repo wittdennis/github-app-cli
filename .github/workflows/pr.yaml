@@ -12,6 +12,7 @@ jobs:
     uses: wittdennis/pipelines/.github/workflows/go-lint.yaml@1.11.41
     with:
       working-directory: src
+      go-version: "1.25.0"
 
   hadolint:
     uses: wittdennis/pipelines/.github/workflows/hadolint.yaml@1.11.41
