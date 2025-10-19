@@ -15,13 +15,13 @@ jobs:
 
       - name: bump version
         id: release
-        uses: oknozor/cocogitto-action@v3.11
+        uses: cocogitto/cocogitto-action@v4.0.0
         with:
-          check-latest-tag-only: true
-          dry-run: true
+          command: bump
+          args: "--auto --from-latest-tag --ignore-merge-commits"
 
   release:
-    uses: wittdennis/pipelines/.github/workflows/cog-release.yaml@1.11.46
+    uses: wittdennis/pipelines/.github/workflows/cog-release.yaml@1.12.0
     with:
       check-latest-tag-only: true
       release-files: |
