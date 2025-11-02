@@ -15,7 +15,7 @@ jobs:
 
       - name: bump version
         id: release
-        uses: cocogitto/cocogitto-action@v4.0.0
+        uses: cocogitto/cocogitto-action@v4.1.0
         with:
           command: bump
           args: "--auto --from-latest-tag --ignore-merge-commits --dry-run"
