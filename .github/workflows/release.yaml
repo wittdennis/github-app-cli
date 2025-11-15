@@ -21,7 +21,7 @@ jobs:
           args: "--auto --from-latest-tag --ignore-merge-commits --dry-run"
 
   release:
-    uses: wittdennis/pipelines/.github/workflows/cog-release.yaml@1.12.7
+    uses: wittdennis/pipelines/.github/workflows/cog-release.yaml@1.12.8
     with:
       check-latest-tag-only: true
       release-files: |
