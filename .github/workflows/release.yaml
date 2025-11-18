@@ -18,7 +18,7 @@ jobs:
         uses: cocogitto/cocogitto-action@v4.1.0
         with:
           command: bump
-          args: "--auto --from-latest-tag --ignore-merge-commits --dry-run"
+          args: "--auto --dry-run"
 
   release:
     uses: wittdennis/pipelines/.github/workflows/cog-release.yaml@1.12.8
