@@ -2,6 +2,19 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.1.9](https://github.com/wittdennis/github-app-cli/compare/c9189b5d8f3da4f0efa69684835145b40f7df4b1..0.1.9) - 2025-12-04
+#### Bug Fixes
+- (**deps**) update module github.com/spf13/cobra to v1.10.2 - ([ad5d7a8](https://github.com/wittdennis/github-app-cli/commit/ad5d7a8befa3c14969d533c74d041a4cf1e59e07)) - wittdennis-renovate[bot]
+#### Miscellaneous Chores
+- (**deps**) update alpine docker tag to v3.23.0 - ([1778079](https://github.com/wittdennis/github-app-cli/commit/17780790e06941c2638d7d1d9755c30af6bc0fd1)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v1.12.10 - ([1e866ba](https://github.com/wittdennis/github-app-cli/commit/1e866bab8a68046c383032a92a23bec904103cf8)) - wittdennis-renovate[bot]
+- (**deps**) update actions/checkout action to v6.0.1 - ([cb2203a](https://github.com/wittdennis/github-app-cli/commit/cb2203a91b41a8df76a6d58cb8899429ad35aa37)) - wittdennis-renovate[bot]
+- (**deps**) update golang docker tag to v1.25.5 - ([e145a83](https://github.com/wittdennis/github-app-cli/commit/e145a8320305c48d232c1ff1525d6db945d79c2a)) - wittdennis-renovate[bot]
+- (**deps**) update actions/checkout action to v6 - ([f9c0cc4](https://github.com/wittdennis/github-app-cli/commit/f9c0cc4cb79053da4501757f6a8fee8eb7a936da)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v1.12.9 - ([c9189b5](https://github.com/wittdennis/github-app-cli/commit/c9189b5d8f3da4f0efa69684835145b40f7df4b1)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [0.1.8](https://github.com/wittdennis/github-app-cli/compare/49c8f807b1b53d7ecda76019b1a2c2fb26c7d650..0.1.8) - 2025-11-18
 #### Bug Fixes
 - (**deps**) update module github.com/jferrl/go-githubauth to v1.5.0 - ([5076096](https://github.com/wittdennis/github-app-cli/commit/5076096db12c5d997d36c452397442b0c8e55694)) - wittdennis-renovate[bot]
