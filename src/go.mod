@@ -4,6 +4,7 @@ go 1.25
 
 require (
 	github.com/jferrl/go-githubauth v1.5.0
+	github.com/jferrl/go-githubauth/v2 v2.0.0
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/viper v1.21.0
 )

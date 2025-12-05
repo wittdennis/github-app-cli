@@ -52,6 +52,7 @@ github.com/jferrl/go-githubauth v1.4.2 h1:kMAsSIWBTTy3MNMOna7OTseNvNLsXl/ME4+1Sn
 github.com/jferrl/go-githubauth v1.4.2/go.mod h1:JZ6Ta7xaGYCsVOcX/gg++F+J68nV32zlnppQb3MNco8=
 github.com/jferrl/go-githubauth v1.5.0 h1:0zv6YqxGwtu2pjtb1DP2vaPVhdsIlyy4AhrjWryJTY8=
 github.com/jferrl/go-githubauth v1.5.0/go.mod h1:dwyfWjg9p59UvnSVevlPGGiVfVluPgezLlHBMLD5qs0=
+github.com/jferrl/go-githubauth/v2 v2.0.0/go.mod h1:CWegJ0VNNWoqKsTxXCMFUHkxaL3/2+Wkl2am0O0zoyg=
 github.com/magiconair/properties v1.8.7 h1:IeQXZAiQcpL9mgcAe1Nu6cX9LLw6ExEHKjN0VQdvPDY=
 github.com/magiconair/properties v1.8.7/go.mod h1:Dhd985XPs7jluiymwWYZ0G4Z61jb3vdS329zhj2hYo0=
 github.com/magiconair/properties v1.8.9 h1:nWcCbLq1N2v/cpNsy5WvQ37Fb+YElfq20WJ/a8RkpQM=
