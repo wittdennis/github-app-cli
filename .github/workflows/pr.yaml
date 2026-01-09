@@ -4,22 +4,22 @@ on: [pull_request]
 
 jobs:
   check-commit:
-    uses: wittdennis/pipelines/.github/workflows/cog-validate.yaml@1.13.3
+    uses: wittdennis/pipelines/.github/workflows/cog-validate.yaml@1.13.4
     with:
       check-latest-tag-only: true
       ignore-merge-commits: true
 
   go-lint:
-    uses: wittdennis/pipelines/.github/workflows/go-lint.yaml@1.13.3
+    uses: wittdennis/pipelines/.github/workflows/go-lint.yaml@1.13.4
     with:
       working-directory: src
       go-version: "1.25.0"
 
   hadolint:
-    uses: wittdennis/pipelines/.github/workflows/hadolint.yaml@1.13.3
+    uses: wittdennis/pipelines/.github/workflows/hadolint.yaml@1.13.4
 
   build-image:
-    uses: wittdennis/pipelines/.github/workflows/container-image-build.yaml@1.13.3
+    uses: wittdennis/pipelines/.github/workflows/container-image-build.yaml@1.13.4
     needs:
       - check-commit
       - go-lint
@@ -32,7 +32,7 @@ jobs:
         GIT_COMMIT=${{ github.sha }}
 
   go-build:
-    uses: wittdennis/pipelines/.github/workflows/go-build.yaml@1.13.3
+    uses: wittdennis/pipelines/.github/workflows/go-build.yaml@1.13.4
     needs:
       - check-commit
       - go-lint
