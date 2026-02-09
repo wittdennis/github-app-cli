@@ -3,7 +3,7 @@ module github-app
 go 1.25
 
 require (
-	github.com/jferrl/go-githubauth v1.5.0
+	github.com/jferrl/go-githubauth v1.5.1
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/viper v1.21.0
 )
@@ -11,7 +11,7 @@ require (
 require (
 	github.com/fsnotify/fsnotify v1.9.0 // indirect
 	github.com/go-viper/mapstructure/v2 v2.4.0 // indirect
-	github.com/golang-jwt/jwt/v5 v5.3.0 // indirect
+	github.com/golang-jwt/jwt/v5 v5.3.1 // indirect
 	github.com/google/go-github/v64 v64.0.0 // indirect
 	github.com/google/go-github/v69 v69.2.0 // indirect
 	github.com/google/go-github/v73 v73.0.0 // indirect
@@ -33,7 +33,7 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
 	golang.org/x/exp v0.0.0-20250305212735-054e65f0b394 // indirect
-	golang.org/x/oauth2 v0.32.0 // indirect
+	golang.org/x/oauth2 v0.34.0 // indirect
 	golang.org/x/sys v0.31.0 // indirect
 	golang.org/x/text v0.28.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
