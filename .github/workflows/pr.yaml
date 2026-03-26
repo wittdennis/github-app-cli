@@ -19,7 +19,7 @@ jobs:
     uses: wittdennis/pipelines/.github/workflows/hadolint.yaml@1.13.26
 
   build-image:
-    uses: wittdennis/pipelines/.github/workflows/container-image-build.yaml@1.13.26
+    uses: wittdennis/pipelines/.github/workflows/container-image-build.yaml@feat/multi-docker-registry-push
     needs:
       - check-commit
       - go-lint
