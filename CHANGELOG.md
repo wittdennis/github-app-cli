@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.2.2](https://github.com/wittdennis/github-app-cli/compare/ea644f4edba81a32df05a84f6f441ac3554ca178..0.2.2) - 2026-03-26
+#### Bug Fixes
+- token permissions - ([ea644f4](https://github.com/wittdennis/github-app-cli/commit/ea644f4edba81a32df05a84f6f441ac3554ca178)) - Dennis Witt
+
+- - -
+
 ## [0.2.1](https://github.com/wittdennis/github-app-cli/compare/474f6242d95bc78e69f399cc6625b05e9fc67f66..0.2.1) - 2026-03-26
 #### Bug Fixes
 - properly pass github token to job - ([474f624](https://github.com/wittdennis/github-app-cli/commit/474f6242d95bc78e69f399cc6625b05e9fc67f66)) - Dennis Witt
