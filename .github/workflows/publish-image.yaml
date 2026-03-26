@@ -21,4 +21,4 @@ jobs:
     secrets:
       registry-passwords: |
         ${{ secrets.DOCKER_REGISTRY_TOKEN }}
-        ${{ github.token }}
+        ${{ secrets.GITHUB_TOKEN }}
