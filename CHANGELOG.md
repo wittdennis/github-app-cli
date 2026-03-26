@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.2.1](https://github.com/wittdennis/github-app-cli/compare/474f6242d95bc78e69f399cc6625b05e9fc67f66..0.2.1) - 2026-03-26
+#### Bug Fixes
+- properly pass github token to job - ([474f624](https://github.com/wittdennis/github-app-cli/commit/474f6242d95bc78e69f399cc6625b05e9fc67f66)) - Dennis Witt
+
+- - -
+
 ## [0.2.0](https://github.com/wittdennis/github-app-cli/compare/3b07b853ec036eb2a835f1deefcc86f80ab79a2f..0.2.0) - 2026-03-26
 #### Features
 - push image to ghcr - ([98fcbbc](https://github.com/wittdennis/github-app-cli/commit/98fcbbc19f9bf6cb5be31ccb624f90b80b1412d9)) - Dennis Witt
