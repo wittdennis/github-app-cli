@@ -7,6 +7,9 @@ on:
 jobs:
   publish:
     uses: wittdennis/pipelines/.github/workflows/container-image-publish.yaml@feat/multi-docker-registry-push
+    permissions:
+      packages: write
+      contents: read
     with:
       image-name: github-app
       build-args: |
