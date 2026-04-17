@@ -2,6 +2,26 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.2.3](https://github.com/wittdennis/github-app-cli/compare/04c1d62246ffec890aa5c5a072341b89fe30f8af..0.2.3) - 2026-04-17
+#### Bug Fixes
+- (**deps**) update dependency go to v1.26.2 - ([6aa63dd](https://github.com/wittdennis/github-app-cli/commit/6aa63dddd92466a7439fb6fb28d3f0a6f09e3514)) - wittdennis-renovate[bot]
+#### Continuous Integration
+- (**deps**) update wittdennis/pipelines action to v2.0.9 - ([610d770](https://github.com/wittdennis/github-app-cli/commit/610d7704cecefa74cfceb4130d1767793a8975b2)) - wittdennis-renovate[bot]
+- (**deps**) update pipelines - ([04c1d62](https://github.com/wittdennis/github-app-cli/commit/04c1d62246ffec890aa5c5a072341b89fe30f8af)) - Dennis Witt
+#### Miscellaneous Chores
+- (**deps**) update alpine docker tag to v3.23.4 - ([5f68471](https://github.com/wittdennis/github-app-cli/commit/5f68471ffa461be35c570b8ae30037a96d684fa3)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.8 - ([d89cac6](https://github.com/wittdennis/github-app-cli/commit/d89cac613c846dfe1a86eee24b40c04b8beab581)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.7 - ([9c2d8e8](https://github.com/wittdennis/github-app-cli/commit/9c2d8e8ee2475d814eb04be1ebc5658cdcb81b6b)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.6 - ([6dd71df](https://github.com/wittdennis/github-app-cli/commit/6dd71df82d69dd050d41e8280e49b4f3d3876742)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.5 - ([f8c2ae1](https://github.com/wittdennis/github-app-cli/commit/f8c2ae17c9517c2704e13bc655badfa26f7b40ec)) - wittdennis-renovate[bot]
+- (**deps**) update golang docker tag to v1.26.2 - ([e71d2c0](https://github.com/wittdennis/github-app-cli/commit/e71d2c09311561aa479c8953e149cac51bbc1295)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.4 - ([8f2d1a0](https://github.com/wittdennis/github-app-cli/commit/8f2d1a070cfa4a4e8207889367ba5e778b3fe71b)) - wittdennis-renovate[bot]
+- (**deps**) pin dependencies - ([321ea4b](https://github.com/wittdennis/github-app-cli/commit/321ea4bccab75566a139b79729062120a0e499d7)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.2 - ([2d3beb0](https://github.com/wittdennis/github-app-cli/commit/2d3beb054ef1e38eebb4152eb09d1e80c6c08b03)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.1 - ([ed45b4e](https://github.com/wittdennis/github-app-cli/commit/ed45b4e91229f46a444e1bd60a207cb49eb1715b)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [0.2.2](https://github.com/wittdennis/github-app-cli/compare/ea644f4edba81a32df05a84f6f441ac3554ca178..0.2.2) - 2026-03-26
 #### Bug Fixes
 - token permissions - ([ea644f4](https://github.com/wittdennis/github-app-cli/commit/ea644f4edba81a32df05a84f6f441ac3554ca178)) - Dennis Witt
