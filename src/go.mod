@@ -1,6 +1,6 @@
 module github-app
 
-go 1.25
+go 1.25.9
 
 require (
 	github.com/jferrl/go-githubauth v1.5.1
