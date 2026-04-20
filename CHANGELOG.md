@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.2.4](https://github.com/wittdennis/github-app-cli/compare/25e966b5a5b04d806eb2ad4db5cebc9b93cf2a08..0.2.4) - 2026-04-20
+#### Bug Fixes
+- (**deps**) update module github.com/jferrl/go-githubauth to v1.6.0 - ([25e966b](https://github.com/wittdennis/github-app-cli/commit/25e966b5a5b04d806eb2ad4db5cebc9b93cf2a08)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [0.2.3](https://github.com/wittdennis/github-app-cli/compare/04c1d62246ffec890aa5c5a072341b89fe30f8af..0.2.3) - 2026-04-17
 #### Bug Fixes
 - (**deps**) update dependency go to v1.26.2 - ([6aa63dd](https://github.com/wittdennis/github-app-cli/commit/6aa63dddd92466a7439fb6fb28d3f0a6f09e3514)) - wittdennis-renovate[bot]
