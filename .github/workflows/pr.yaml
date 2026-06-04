@@ -4,22 +4,22 @@ on: [pull_request]
 
 jobs:
   check-commit:
-    uses: wittdennis/pipelines/.github/workflows/cog-validate.yaml@d7142ea4fc5237aae7ec616148530adc3577ec7d # 2.0.23
+    uses: wittdennis/pipelines/.github/workflows/cog-validate.yaml@ec4833e22f9ab030d5c1393bc538c7fbe41885b0 # 2.0.24
     with:
       check-latest-tag-only: true
       ignore-merge-commits: true
 
   go-lint:
-    uses: wittdennis/pipelines/.github/workflows/go-lint.yaml@d7142ea4fc5237aae7ec616148530adc3577ec7d # 2.0.23
+    uses: wittdennis/pipelines/.github/workflows/go-lint.yaml@ec4833e22f9ab030d5c1393bc538c7fbe41885b0 # 2.0.24
     with:
       working-directory: src
       go-version: "1.26.4" # renovate: datasource=github-tags depName=golang/go extractVersion=^go(?<version>.*)$ versioning=semver
 
   hadolint:
-    uses: wittdennis/pipelines/.github/workflows/hadolint.yaml@d7142ea4fc5237aae7ec616148530adc3577ec7d # 2.0.23
+    uses: wittdennis/pipelines/.github/workflows/hadolint.yaml@ec4833e22f9ab030d5c1393bc538c7fbe41885b0 # 2.0.24
 
   build-image:
-    uses: wittdennis/pipelines/.github/workflows/container-image-build.yaml@d7142ea4fc5237aae7ec616148530adc3577ec7d # 2.0.23
+    uses: wittdennis/pipelines/.github/workflows/container-image-build.yaml@ec4833e22f9ab030d5c1393bc538c7fbe41885b0 # 2.0.24
     needs:
       - check-commit
       - go-lint
@@ -32,7 +32,7 @@ jobs:
         GIT_COMMIT=${{ github.sha }}
 
   go-build:
-    uses: wittdennis/pipelines/.github/workflows/go-build.yaml@d7142ea4fc5237aae7ec616148530adc3577ec7d # 2.0.23
+    uses: wittdennis/pipelines/.github/workflows/go-build.yaml@ec4833e22f9ab030d5c1393bc538c7fbe41885b0 # 2.0.24
     needs:
       - check-commit
       - go-lint
